@@ -4,7 +4,6 @@ CIS 211
 Sweeping practice
 '''
 
-
 def all_same(l: list) -> bool:
     '''
     returns True if all the items in the list are the same and false if not
@@ -24,7 +23,6 @@ def all_same(l: list) -> bool:
         else:
             return False
 
-
 def dedup(l: list) -> list:
     '''
     returns a list with no duplicate numbers from original list
@@ -38,7 +36,6 @@ def dedup(l: list) -> list:
             if item not in result:
                 result.append(item)
         return result
-
 
 def max_run(l: list) -> int:
     '''
@@ -58,5 +55,4 @@ def max_run(l: list) -> int:
                 run = 1
             if run > max:
                 max = run
-
         return max
