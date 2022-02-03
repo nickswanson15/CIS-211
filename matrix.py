@@ -6,7 +6,6 @@ Code demo
 
 from typing import List
 
-
 class Vector(list):
 
     def __mul__(self, other):
@@ -29,7 +28,6 @@ class Vector(list):
             value = self * i
             result.append(value)
         return result
-
 
 class Matrix:
 
