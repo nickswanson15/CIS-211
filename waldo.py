@@ -7,9 +7,7 @@ Waldo mini project
 Waldo = 'W'
 Other = '.'
 
-
 """For all x, there exists y . P(y)"""
-
 
 def all_row_exists_waldo(collection):
 
@@ -29,7 +27,6 @@ def all_row_exists_waldo(collection):
         return False
     else:
         return True
-
 
 def all_col_exists_waldo(collection):
 
@@ -63,9 +60,7 @@ def all_col_exists_waldo(collection):
         else:
             return False
 
-
 """For all x, for all y . P(y)"""
-
 
 def all_row_all_waldo(collection):
 
@@ -86,7 +81,6 @@ def all_row_all_waldo(collection):
         return False
     else:
         return True
-
 
 def all_col_all_waldo(collection):
     if len(collection) == 0:
@@ -124,9 +118,7 @@ def all_col_all_waldo(collection):
         else:
             return True
 
-
 """There exists x such that there exists y . P(y)"""
-
 
 def exists_row_exists_waldo(collection):
     if len(collection) == 0:
@@ -148,7 +140,6 @@ def exists_row_exists_waldo(collection):
         return True
     else:
         return False
-
 
 def exists_col_exists_waldo(collection):
 
@@ -210,9 +201,7 @@ def exists_col_exists_waldo(collection):
             else:
                 return False
 
-
 """There exists x such that all y . P(y)"""
-
 
 def exists_row_all_waldo(collection):
 
@@ -232,7 +221,6 @@ def exists_row_all_waldo(collection):
         return False
     else:
         return True
-
 
 def exists_col_all_waldo(collection):
 
