@@ -21,7 +21,6 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 WORD_SIZE = 32
 
-
 def sign_extend(field: int, width: int) -> int:
     """Interpret field as a signed integer with width bits.
     If the sign bit is zero, it is positive.  If the sign bit
@@ -49,7 +48,6 @@ def sign_extend(field: int, width: int) -> int:
         return extended
     else:
         return field
-
 
 class BitField(object):
     """A BitField object extracts specified
@@ -98,6 +96,5 @@ class BitField(object):
          Returns the combined value.
          Example: BitField(3,5).insert(0b101, 0b110) == 0b101110
          """
-
         value = value & self.mask
         return word | (value << self.from_bit)
