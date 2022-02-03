@@ -19,7 +19,6 @@ import random
 # Configuration constants
 GRID_SIZE = 4
 
-
 class Vec():
     """A Vec is an (x,y) or (row, column) pair that
     represents distance along two orthogonal axes.
