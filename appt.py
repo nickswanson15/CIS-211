@@ -6,7 +6,6 @@ Creates 2 python classes appt, which will record dates and times which the appoi
 
 from datetime import datetime
 
-
 class Appt:
     """An appointment has a start time, an end time, and a title.
     The start and end time should be on the same day.
@@ -66,7 +65,6 @@ class Appt:
 
     def __repr__(self) -> str:
         return f"Appt({repr(self.start)}, {repr(self.finish)}, {repr(self.desc)})"
-
 
 class Agenda:
     """An Agenda is a collection of appointments,
@@ -131,7 +129,6 @@ class Agenda:
                     i += 1
                     e = 1
         return x
-
 
 if __name__ == "__main__":
     print("Running usage examples")
